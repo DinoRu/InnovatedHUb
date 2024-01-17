@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block title %}Home{% endblock title %}
+
+{% block content %}
+<div class="index py-10">
+    <div class="hero flex ">
+        <div class="hero__ill order-2 w-1/2">
+            <img src="{% static 'assets/hero.svg' %}" alt="">
+        </div>
+        <div class="hero__cnt w-1/2 flex flex-col justify-center px-5 text-start">
+            <h1>We <br>
+                <span class="text-7xl">InnovatedHub Studio</span>
+            </h1>
+            <p class="text-lg text-start pe-8 my-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi aspernatur blanditiis quo quae amet,
+                minima, quas rerum est voluptatem voluptates sed nisi esse? Obcaecati impedit, inventore quasi explicabo
+                ad ex veritatis. Necessitatibus, sint repellendus. Nesciunt libero quos in quo beatae!
+            </p>
+            <div class="hero__btns mt-8">
+                <a href="" class="py-2 px-4 btn btn_active">See what we do</a>
+                <a href="" class="py-2 px-4 btn">Hire us</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}

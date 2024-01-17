@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Browood';
+    src: local('Browood'), url('./static/fonts/Browood-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Foxgrab';
+    src: local('Foxgrab'), url('./static/fonts/Foxgrab.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    height: 72px;
+    box-shadow: 1px 2px 4px #6C63FF;
+}
+
+nav .logo {
+    font-family: 'Foxgrab', sans-serif;
+    color: #6C63FF;
+}
+
+.hero__cnt span {
+    font-family: 'Browood', sans-serif;
+    color: #6C63FF;
+}
+
+.btn {
+    border: 1px solid #6C63FF;
+    border-radius: 20px;
+    color: #6C63FF;
+}
+
+.btn_active {
+    background: #6C63FF;
+    color: #fff;
+    font-weight: bold;
+}
