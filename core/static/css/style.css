@@ -69,6 +69,7 @@ nav .logo {
     border-right: 1px solid var(--primary_color);
     height: 72px;
     padding: 1rem;
+    font-family: 'Browood', sans-serif;
 }
 
 .item__links.active {
