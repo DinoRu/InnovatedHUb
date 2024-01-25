@@ -40,3 +40,13 @@ class Client(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class Contact(models.Model):
+    name = models.CharField(max_length=50)
+    email = models.EmailField()
+    phone_number = models.CharField(max_length=20)
+    messages = models.TextField()
+
+    def __str__(self):
+        return self.name

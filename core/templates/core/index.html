@@ -42,8 +42,33 @@
 
     <!-- Section clients -->
     <div class="section py-10">
-        <div class="clients text-4xl">
-            <h1>Ours Clients</h1>
+        <div class="clients">
+            <h1 class="text-4xl">Ours Clients</h1>
+        </div>
+    </div>
+
+    <!-- Section know + -->
+    <div class="section py-10">
+        <div class="know_plus">
+            <h1 class="text-4xl">Know +</h1>
+        </div>
+    </div>
+
+    <!-- Section contact -->
+    <div class="section py-10">
+        <div class="contacts">
+            <h1 class="text-4xl">Our location</h1>
+            <div class="grid  grid-cols-2">
+                <div class="forms">
+                    <form>
+                        {{ form.as_p }}
+                        <input type="submit" value="Envoyer">
+                    </form>
+                </div>
+                <div class="map">
+
+                </div>
+            </div>
         </div>
     </div>
 </div>
